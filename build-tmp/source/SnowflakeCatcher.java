@@ -17,10 +17,10 @@ public class SnowflakeCatcher extends PApplet {
 SnowFlake [] group;
   public void setup()
   {
-    size(400,400);
+    size(300,300);
     background(31,190,214);
     noStroke();//light blue(sky)
-    group = new SnowFlake[100];
+    group = new SnowFlake[50];
     for(int i = 0; i < group.length;i++)
     {
       group[i] = new SnowFlake();
@@ -58,8 +58,8 @@ SnowFlake [] group;
     boolean isMoving = true;//class member variable declarations
     SnowFlake() //constructor
     {
-      myX = (int)(Math.random()*400);
-      myY = (int)(Math.random()*400);
+      myX = (int)(Math.random()*300);
+      myY = (int)(Math.random()*300);
       isMoving = true;
       //class member variable initializations
     }
@@ -102,10 +102,10 @@ SnowFlake [] group;
     }
     public void wrap()
     {
-      if(myY >= 396)
+      if(myY >= 296)
       {
         myY = 0;
-        myX = (int)(Math.random()*400);
+        myX = (int)(Math.random()*300);
       }
       //your code here
     }
