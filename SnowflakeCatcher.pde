@@ -4,7 +4,7 @@ SnowFlake [] group;
     size(300,300);
     background(31,190,214);
     noStroke();//light blue(sky)
-    group = new SnowFlake[50];
+    group = new SnowFlake[30];
     for(int i = 0; i < group.length;i++)
     {
       group[i] = new SnowFlake();
