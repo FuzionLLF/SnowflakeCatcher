@@ -4,7 +4,7 @@ SnowFlake [] group;
     size(300,300);
     background(31,190,214);
     noStroke();//light blue(sky)
-    group = new SnowFlake[30];
+    group = new SnowFlake[10];
     for(int i = 0; i < group.length;i++)
     {
       group[i] = new SnowFlake();
@@ -77,6 +77,10 @@ SnowFlake [] group;
       if(isMoving == true)
       {
         myY = myY + 1;
+      }
+      else
+      {
+        myY = myY;
       }
       //your code here
     }
