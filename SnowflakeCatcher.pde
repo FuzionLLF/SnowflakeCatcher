@@ -78,10 +78,6 @@ SnowFlake [] group;
       {
         myY = myY + 1;
       }
-      else
-      {
-        myY = myY - 1;
-      }
       //your code here
     }
     void wrap()
