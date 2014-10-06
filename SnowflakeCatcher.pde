@@ -76,7 +76,7 @@ SnowFlake [] group;
     {
       if(isMoving == true)
       {
-        myY = myY + 5;
+        myY = myY + 1;
       }
       else
       {
