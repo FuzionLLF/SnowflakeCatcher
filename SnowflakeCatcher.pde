@@ -2,7 +2,7 @@ SnowFlake [] group;
   void setup()
   {
     size(300,300);
-    background(0,0,0) //background(31,190,214);
+    background(0,0,0); //background(31,190,214);
     noStroke();//light blue(sky)
     group = new SnowFlake[10];
     for(int i = 0; i < group.length;i++)
@@ -31,7 +31,7 @@ SnowFlake [] group;
     }
    else if(mouseButton == RIGHT)
    {
-    fill(31,190,214);
+    fill(0,0,0); //fill(31,190,214);
     ellipse(mouseX,mouseY,10,10);
    }
     //your code here
@@ -68,7 +68,7 @@ SnowFlake [] group;
     }
     void erase()
     {
-      fill(31,190,214);
+      fill(31,190,214); //fill(31,190,214);
       ellipse(myX,myY,7,7);
       //your code here
     }
