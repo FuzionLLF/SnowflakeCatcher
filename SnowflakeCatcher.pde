@@ -80,7 +80,7 @@ SnowFlake [] group;
       }
       else
       {
-        myY = myY;
+        myY = myY - 1;
       }
       //your code here
     }
