@@ -68,7 +68,7 @@ SnowFlake [] group;
     }
     void erase()
     {
-      fill(31,190,214); //fill(31,190,214);
+      fill(0,0,0); //fill(31,190,214);
       ellipse(myX,myY,7,7);
       //your code here
     }
