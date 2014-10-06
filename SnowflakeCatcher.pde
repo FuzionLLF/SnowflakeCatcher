@@ -2,7 +2,7 @@ SnowFlake [] group;
   void setup()
   {
     size(300,300);
-    background(31,190,214);
+    background(0,0,0) //background(31,190,214);
     noStroke();//light blue(sky)
     group = new SnowFlake[10];
     for(int i = 0; i < group.length;i++)
@@ -56,7 +56,7 @@ SnowFlake [] group;
     }
     void lookDown()
     {
-      if((myY < 410) && (myY > 0) && (get(myX,myY+3)!=color(31,190,214)))
+      if((myY < 410) && (myY > 0) && (get(myX,myY+3)!=color(0,0,0)))
       {
         isMoving = false;
       }
