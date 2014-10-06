@@ -56,7 +56,7 @@ SnowFlake [] group;
     }
     void lookDown()
     {
-      if((myY < 310) && (myY > 0) && (get(myX,myY+3)!=color(0,0,0)))
+      if((myY < 300) && (myY > 0) && (get(myX,myY+3)!=color(0,0,0)))
       {
         isMoving = false;
       }
